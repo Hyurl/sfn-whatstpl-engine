@@ -1,7 +1,7 @@
 import { Template, CompileOption } from "whatstpl";
 import { TemplateEngine, TemplateOptions } from "sfn";
 
-export interface WhatstplOptions extends TemplateOptions {
+export interface WhatstplOptions extends TemplateOptions, CompileOption {
     /** Whether or not to remove the comments when ernder HTML. */
     removeComments?: boolean;
     /**

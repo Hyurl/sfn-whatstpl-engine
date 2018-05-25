@@ -1,6 +1,6 @@
 {
   "name": "sfn-whatstpl-engine",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "WhatsTPL template engine for sfn framework.",
   "main": "dist/index.js",
   "types": "src/index.ts",
@@ -22,7 +22,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^9.6.0",
-    "whatstpl": "^0.1.3"
+    "whatstpl": "^0.1.7"
   }
 }
